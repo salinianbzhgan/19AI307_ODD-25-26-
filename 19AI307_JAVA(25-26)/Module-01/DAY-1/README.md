@@ -47,3 +47,4 @@ public class Main{
 ## RESULT:
 Thus, the Java program to print the message using the output statement is executed successfully.
 
+
