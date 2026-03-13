@@ -25,13 +25,13 @@ RegisterNumber:  212223220091
 
 ## Sourcecode.java:
 ```
-/*
+
 public class Main{
     public static void main(String[] args){
         System.out.println("Hey, my first java program!");
     }
 }
-*/
+
 ```
 
 
@@ -46,3 +46,4 @@ public class Main{
 
 ## RESULT:
 Thus, the Java program to print the message using the output statement is executed successfully.
+
