@@ -2,13 +2,9 @@
 
 ## QUESTION:
 
-Write a Java program to reverse a given string.
-
-Example: Input: welcome
-
-Output: Reversed string: emoclew
+Write a java program to find the index of the last occurrence of a character in a string.
 ## AIM:
-To write a Java program that reads a string from the user and reverses it by traversing the characters in reverse order.
+To write a java program to find the index of the last occurrence of a character in a string.
 
 ## ALGORITHM :
 1.Start the program.
@@ -33,22 +29,17 @@ RegisterNumber:  212223220091
 
 ## SOURCE CODE:
 ```
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        String str = scanner.next();
-        String newstr = "";
-
-        for (int i = str.length() - 1; i >= 0; i--) {
-            newstr += str.charAt(i);
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        String input=sc.nextLine();
+        char ch = sc.next().charAt(0);
+        int index=input.lastIndexOf(ch);
+        if(index != -1){
+            System.out.println("Last occurrence of '"+ch+"' is at index: "+index);
         }
 
-        System.out.println("Reversed string: " + newstr);
-
-        scanner.close();
     }
 }
 ```
@@ -64,3 +55,4 @@ public class Main {
 
 ## RESULT:
 Thus, the Java program to reverse a given string was executed successfully.
+
